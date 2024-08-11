@@ -10,7 +10,7 @@ const cookieOptions = {
   sameSite: "none",
   maxAge: 7 * 24 * 60 * 60 * 1000,
   secure: true,
-  httpOnly: true,
+  httpOnly: false,
 };
 //REGISTER
 router.post("/register", async (req, res) => {
